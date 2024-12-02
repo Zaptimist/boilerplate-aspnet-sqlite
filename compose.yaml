@@ -1,0 +1,6 @@
+﻿services:
+  testsqliteapi:
+    image: testsqliteapi
+    build:
+      context: .
+      dockerfile: TestSqliteApi/Dockerfile
